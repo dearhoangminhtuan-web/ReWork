@@ -70,13 +70,13 @@ export function VerdictStamp({ top, main, className }: { top: string; main: stri
   return (
     <div
       className={cx(
-        "stamp-in stamp-ink inline-flex flex-col items-center justify-center rounded-full border-[3px] border-spot text-spot size-24 text-center leading-tight",
+        "stamp-in inline-flex flex-col items-center justify-center rounded-full border-[3px] border-spot text-spot size-24 text-center leading-tight",
         className,
       )}
       style={{ ["--r" as string]: "-10deg", transform: "rotate(-10deg)" }}
     >
       <span className="font-mono text-[9px] tracking-[0.2em] uppercase">{top}</span>
-      <span className="font-display text-[15px] px-2">{main}</span>
+      <span className="font-display text-[13px] leading-[1.1] px-1.5">{main}</span>
     </div>
   );
 }

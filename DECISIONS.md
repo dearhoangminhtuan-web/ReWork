@@ -44,7 +44,13 @@ any language. Prefecture names/greetings live in `config/prefectures.ts` as
 ## D-005 · Prefecture themes
 Each prefecture has a theme (`app/globals.css`), artwork (`components/art`)
 and registry entry (`config/prefectures.ts`). Seeded: Kochi (pilot) and Tokyo
-(comparison). Adding one = registry entry + CSS block + art + seed rows.
+(comparison). Osaka and Hokkaido are **preview** prefectures: theme, art,
+municipalities, verified FY2025 minimum wage (labour-bureau sources in
+`config/min-wage.ts`) and fictional sample rent — but no sample employers, so
+Kenkai Swap shows "no matches in your prefecture yet" (US-E07) rather than
+padding. This stays within PRD §11 ("config-ready but not seeded") and shows
+the per-prefecture design system. Adding one = registry entry + CSS block +
+art + seed rows.
 
 ## D-006 · Offer photos are not stored
 PRD §7.2 allows a private bucket with 7-day TTL. The MVP reads the image in
@@ -68,3 +74,21 @@ an employer-issued team invite code (P2). Employers can't read who is in a team.
 Kenkai Swap's "near compatriots" uses community groups whose language matches
 the worker's app language. Good enough for vi/ja/en; add a nationality field
 when more languages launch.
+
+## D-010 · Server actions instead of some suggested API routes
+PRD §8.4 lists `/api/swap/rank` and `/api/survey`. These are implemented as
+server actions (`app/actions/swap.ts`, `app/actions/pulse.ts`) — same
+server-side boundary, less boilerplate. Streaming chat and photo upload stay
+route handlers (`/api/assistant`, `/api/extract-offer`).
+
+## D-011 · Server-side refusal fallback on the main model
+Calls to `LLM_MODEL_MAIN` (default `claude-sonnet-5-5`) send
+`fallbacks: "default"` (beta `server-side-fallback-2026-07-01`) so a safety
+decline is retried on a fallback model inside the same request. On any failure
+or refusal the app still falls back to its non-AI path. Remove it in
+`lib/llm/client.ts` if you don't want it.
+
+## D-012 · Retention
+Nightly Vercel Cron (`/api/cron/daily`, needs `CRON_SECRET`) runs
+`app.refresh_topic_counts()` and `app.purge_expired()` (chat > 30 days, closed
+swap requests > 6 months).

@@ -28,6 +28,21 @@ export const SAMPLE_RENT: Record<string, Record<string, number>> = {
     ota: 70000,
     hachioji: 52000,
   },
+  "27_osaka": {
+    osaka_city: 58000,
+    sakai: 46000,
+    higashiosaka: 45000,
+    toyonaka: 52000,
+    izumisano: 40000,
+  },
+  "01_hokkaido": {
+    sapporo: 45000,
+    asahikawa: 36000,
+    hakodate: 37000,
+    otaru: 35000,
+    obihiro: 36000,
+    furano: 34000,
+  },
 };
 
 export function sampleRentFor(prefectureCode: string, municipality: string | null | undefined): number | null {

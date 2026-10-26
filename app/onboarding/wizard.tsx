@@ -162,6 +162,11 @@ export function Wizard({
                     <span className="block border-t-[1.5px] border-ink px-2.5 py-2">
                       <span className="block text-[15px] font-bold">{p.name[lang]}</span>
                       <span className="block text-[11.5px] leading-snug text-ink-soft">{p.tagline[lang]}</span>
+                      {!p.seeded ? (
+                        <span className="mt-1 inline-block border border-dashed border-ink-soft px-1 font-mono text-[9.5px] uppercase tracking-[0.08em] text-ink-soft">
+                          {t("onboarding.previewTag")}
+                        </span>
+                      ) : null}
                     </span>
                   </button>
                 );

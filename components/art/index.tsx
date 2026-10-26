@@ -1,6 +1,8 @@
 import type { ThemeKey } from "@/config/prefectures";
 import { KochiPoster, StampCastle, StampChinkabashi, StampHarimaya, StampNaruko } from "./kochi";
 import { StampKaminarimon, StampScramble, StampTower, StampYamanote, TokyoPoster } from "./tokyo";
+import { OsakaPoster, StampEbisubashi, StampOsakaCastle, StampTakoyaki, StampTsutenkaku } from "./osaka";
+import { HokkaidoPoster, StampClockTower, StampLavender, StampOtaruCanal, StampYotei } from "./hokkaido";
 
 export type StampFeature = "tedori" | "assistant" | "community" | "swap";
 
@@ -14,6 +16,14 @@ export const ART: Record<ThemeKey, { Poster: (p: { className?: string }) => Reac
   tokyo: {
     Poster: TokyoPoster,
     stamps: { tedori: StampTower, assistant: StampKaminarimon, community: StampScramble, swap: StampYamanote },
+  },
+  osaka: {
+    Poster: OsakaPoster,
+    stamps: { tedori: StampTsutenkaku, assistant: StampOsakaCastle, community: StampTakoyaki, swap: StampEbisubashi },
+  },
+  hokkaido: {
+    Poster: HokkaidoPoster,
+    stamps: { tedori: StampClockTower, assistant: StampOtaruCanal, community: StampLavender, swap: StampYotei },
   },
 };
 

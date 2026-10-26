@@ -108,7 +108,8 @@
     "starting": "Setting up…",
     "orgTitle": "Your support organisation",
     "orgHint": "The 監理支援機関 / 登録支援機関 that supports you. Only used if you choose to send them something.",
-    "orgNone": "I don't know / not listed"
+    "orgNone": "I don't know / not listed",
+    "previewTag": "Preview · no sample jobs yet"
   },
   "consents": {
     "chatImprove": "Use my chats to improve answers",

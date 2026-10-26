@@ -6,7 +6,7 @@
 export type Lang = "vi" | "ja" | "en";
 export type I18nText = Record<Lang, string>;
 
-export type ThemeKey = "kochi" | "tokyo";
+export type ThemeKey = "kochi" | "tokyo" | "osaka" | "hokkaido";
 
 export interface Municipality {
   id: string;
@@ -121,6 +121,89 @@ export const PREFECTURES: Record<string, Prefecture> = {
       { vi: "Skytree", ja: "スカイツリー", en: "Skytree" },
       { vi: "Asakusa", ja: "浅草", en: "Asakusa" },
       { vi: "Núi Phú Sĩ nhìn từ xa", ja: "遠くの富士山", en: "Fuji on a clear day" },
+    ],
+  },
+  "27_osaka": {
+    code: "27_osaka",
+    theme: "osaka",
+    seeded: false,
+    name: { vi: "Ōsaka", ja: "大阪府", en: "Osaka" },
+    kanji: "大阪",
+    greeting: {
+      local: "まいど！よう来はったなあ",
+      translation: {
+        vi: "(Tiếng Osaka) Chào nha! Mừng bạn đã đến",
+        ja: "（大阪弁）こんにちは！よく来てくれましたね",
+        en: "Osaka dialect: hey there — glad you made it!",
+      },
+    },
+    tagline: {
+      vi: "Bếp của Nhật Bản — đèn neon và takoyaki",
+      ja: "天下の台所、ネオンとたこ焼き",
+      en: "Japan's kitchen — neon and takoyaki",
+    },
+    lineCode: "OL",
+    lineName: { vi: "Vòng Ōsaka", ja: "大阪ループ", en: "Osaka Loop" },
+    municipalities: [
+      { id: "osaka_city", name: { vi: "TP. Ōsaka", ja: "大阪市", en: "Osaka City" } },
+      { id: "sakai", name: { vi: "Sakai", ja: "堺市", en: "Sakai" } },
+      { id: "higashiosaka", name: { vi: "Higashiōsaka", ja: "東大阪市", en: "Higashiosaka" } },
+      { id: "toyonaka", name: { vi: "Toyonaka", ja: "豊中市", en: "Toyonaka" } },
+      { id: "izumisano", name: { vi: "Izumisano", ja: "泉佐野市", en: "Izumisano" } },
+    ],
+    stamps: [
+      { feature: "tedori", name: { vi: "Tháp Tsūtenkaku", ja: "通天閣", en: "Tsutenkaku" } },
+      { feature: "assistant", name: { vi: "Thành Ōsaka", ja: "大阪城", en: "Osaka Castle" } },
+      { feature: "community", name: { vi: "Takoyaki", ja: "たこ焼き", en: "Takoyaki" } },
+      { feature: "swap", name: { vi: "Cầu Ebisu", ja: "戎橋", en: "Ebisu Bridge" } },
+    ],
+    motifs: [
+      { vi: "Takoyaki & okonomiyaki", ja: "たこ焼き・お好み焼き", en: "Takoyaki & okonomiyaki" },
+      { vi: "Kênh Dōtonbori", ja: "道頓堀", en: "Dotonbori canal" },
+      { vi: "Thành Ōsaka", ja: "大阪城", en: "Osaka Castle" },
+      { vi: "Người Ōsaka thân thiện, hay đùa", ja: "ノリのいい大阪人", en: "Friendly, joking locals" },
+    ],
+  },
+  "01_hokkaido": {
+    code: "01_hokkaido",
+    theme: "hokkaido",
+    seeded: false,
+    name: { vi: "Hokkaidō", ja: "北海道", en: "Hokkaido" },
+    kanji: "北海道",
+    greeting: {
+      local: "なまら寒いっしょ。でも人はあったかいよ",
+      translation: {
+        vi: "(Tiếng Hokkaidō) Lạnh ghê ha. Nhưng người ở đây ấm áp lắm",
+        ja: "（北海道弁）すごく寒いでしょう。でも人は温かいよ",
+        en: "Hokkaido dialect: freezing, right? But people here are warm",
+      },
+    },
+    tagline: {
+      vi: "Tuyết, oải hương và những cánh đồng rộng",
+      ja: "雪とラベンダーと、広い大地",
+      en: "Snow, lavender and wide-open land",
+    },
+    lineCode: "HK",
+    lineName: { vi: "Tuyến Hokkaidō", ja: "北の大地ライン", en: "Northland Line" },
+    municipalities: [
+      { id: "sapporo", name: { vi: "Sapporo", ja: "札幌市", en: "Sapporo" } },
+      { id: "asahikawa", name: { vi: "Asahikawa", ja: "旭川市", en: "Asahikawa" } },
+      { id: "hakodate", name: { vi: "Hakodate", ja: "函館市", en: "Hakodate" } },
+      { id: "otaru", name: { vi: "Otaru", ja: "小樽市", en: "Otaru" } },
+      { id: "obihiro", name: { vi: "Obihiro", ja: "帯広市", en: "Obihiro" } },
+      { id: "furano", name: { vi: "Furano", ja: "富良野市", en: "Furano" } },
+    ],
+    stamps: [
+      { feature: "tedori", name: { vi: "Tháp đồng hồ Sapporo", ja: "札幌時計台", en: "Sapporo Clock Tower" } },
+      { feature: "assistant", name: { vi: "Kênh Otaru", ja: "小樽運河", en: "Otaru Canal" } },
+      { feature: "community", name: { vi: "Oải hương Furano", ja: "富良野ラベンダー", en: "Furano lavender" } },
+      { feature: "swap", name: { vi: "Núi Yōtei", ja: "羊蹄山", en: "Mt. Yotei" } },
+    ],
+    motifs: [
+      { vi: "Hải sản & kani", ja: "海鮮・かに", en: "Seafood & crab" },
+      { vi: "Lễ hội tuyết Sapporo", ja: "さっぽろ雪まつり", en: "Sapporo Snow Festival" },
+      { vi: "Sữa & bơ", ja: "牛乳・バター", en: "Milk & butter" },
+      { vi: "Sếu đầu đỏ", ja: "タンチョウ", en: "Red-crowned crane" },
     ],
   },
 };

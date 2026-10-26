@@ -108,7 +108,8 @@
     "starting": "Đang chuẩn bị…",
     "orgTitle": "Tổ chức hỗ trợ của bạn",
     "orgHint": "Nghiệp đoàn / tổ chức hỗ trợ (監理支援機関 / 登録支援機関) đang hỗ trợ bạn. Chỉ dùng khi bạn chọn gửi gì đó cho họ.",
-    "orgNone": "Không biết / không có trong danh sách"
+    "orgNone": "Không biết / không có trong danh sách",
+    "previewTag": "Xem trước · chưa có việc mẫu"
   },
   "consents": {
     "chatImprove": "Dùng tin nhắn của tôi để cải thiện câu trả lời",

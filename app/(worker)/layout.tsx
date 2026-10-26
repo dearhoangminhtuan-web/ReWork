@@ -25,7 +25,7 @@ export default async function WorkerLayout({ children }: { children: React.React
         {t("main")}
       </a>
       <header className="mx-auto flex max-w-[520px] items-center gap-3 px-4 pt-4">
-        <Link href="/home" className="flex items-center gap-2.5" aria-label="ReWork">
+        <Link href="/home" className="flex items-center gap-2.5">
           <Hanko text={pref.kanji} size={40} />
           <span className="leading-none">
             <span className="block font-display text-[19px] tracking-tight">ReWork</span>

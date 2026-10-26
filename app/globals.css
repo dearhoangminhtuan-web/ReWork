@@ -8,6 +8,25 @@
   See DESIGN.md.
 */
 
+/* Dela Gothic One (SIL OFL 1.1), self-hosted subsets — see scripts/subset-fonts.py */
+@font-face {
+  font-family: "Dela Gothic One";
+  src: url("/fonts/dela-latin.woff2") format("woff2");
+  font-display: swap;
+  unicode-range: U+0020-007E, U+00A0-017F, U+01A0-01B0, U+0300-0323, U+1EA0-1EF9, U+2000-206F, U+20AB, U+2190-2193, U+25B2, U+25BC;
+}
+@font-face {
+  font-family: "Dela Gothic One";
+  src: url("/fonts/dela-ja.woff2") format("woff2");
+  font-display: swap;
+  unicode-range: U+3000-30FF, U+3400-4DBF, U+4E00-9FFF, U+FF01-FF5E;
+}
+
+:root {
+  --font-dela: "Dela Gothic One";
+  --font-zen: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", "Noto Sans CJK JP", "Yu Gothic UI", "Yu Gothic", Meiryo;
+}
+
 @theme inline {
   --color-paper: var(--paper);
   --color-paper-2: var(--paper-2);
@@ -63,6 +82,38 @@
   --pattern: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath d='M0 0h8v8H0zM8 8h8v8H8z' fill='%23171a2e' fill-opacity='.05'/%3E%3C/svg%3E");
 }
 
+[data-theme="osaka"] {
+  /* 大阪: night ink, Dotonbori neon magenta, Osaka Castle verdigris */
+  --paper: #f2ebe3;
+  --paper-2: #e5dacd;
+  --card: #faf6f1;
+  --ink: #1f1a2e;
+  --ink-soft: #57506a;
+  --spot: #a51f55;
+  --spot-2: #3b9a84;
+  --sea: #26406e;
+  --on-spot: #ffffff;
+  --alert: #b3261e;
+  /* 鹿の子 kanoko dots */
+  --pattern: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14'%3E%3Cg fill='%231f1a2e' fill-opacity='.09'%3E%3Ccircle cx='3.5' cy='3.5' r='1.6'/%3E%3Ccircle cx='10.5' cy='10.5' r='1.6'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+[data-theme="hokkaido"] {
+  /* 北海道: winter-night ink, red-brick red, Furano lavender, snow paper */
+  --paper: #edf0f2;
+  --paper-2: #dde3e8;
+  --card: #f8fafb;
+  --ink: #1b2a3a;
+  --ink-soft: #4b5b6b;
+  --spot: #a8312f;
+  --spot-2: #a093d4;
+  --sea: #2e6b9a;
+  --on-spot: #ffffff;
+  --alert: #b3261e;
+  /* 雪輪 snowflakes */
+  --pattern: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'%3E%3Cg stroke='%231b2a3a' stroke-opacity='.1' stroke-width='1' fill='none'%3E%3Cpath d='M7 3v8M3 7h8M4.2 4.2l5.6 5.6M9.8 4.2l-5.6 5.6M21 17v8M17 21h8M18.2 18.2l5.6 5.6M23.8 18.2l-5.6 5.6'/%3E%3C/g%3E%3C/svg%3E");
+}
+
 /* ---------- base ---------- */
 html {
   -webkit-text-size-adjust: 100%;
@@ -72,8 +123,8 @@ body {
   background-color: var(--paper);
   color: var(--ink);
   font-family: var(--font-sans);
-  /* paper grain */
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.3 0 0 0 0 0.25 0 0 0 0 0.2 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  /* paper grain: a pre-rendered PNG tile (an SVG feTurbulence filter is too slow to paint on low-end phones) */
+  background-image: url("/grain.png");
   -webkit-font-smoothing: antialiased;
 }
 

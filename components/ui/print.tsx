@@ -57,7 +57,7 @@ export function Hanko({ text, size = 44, className }: { text: string; size?: num
   return (
     <span
       className={cx("inline-grid place-items-center bg-spot text-on-spot font-ja font-bold leading-none", className)}
-      style={{ width: size, height: size, fontSize: size * 0.34, borderRadius: 5, boxShadow: "inset 0 0 0 2px var(--spot), inset 0 0 0 3.5px var(--on-spot)" }}
+      style={{ width: size, height: size, fontSize: size * (text.length > 2 ? 0.25 : 0.34), borderRadius: 5, boxShadow: "inset 0 0 0 2px var(--spot), inset 0 0 0 3.5px var(--on-spot)" }}
       aria-hidden="true"
     >
       <span className="vertical" style={{ letterSpacing: 0 }}>{text}</span>

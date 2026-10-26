@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useRef, useState, useTransition } from "react";
+import { useRef, useState, useTransition } from "react";
 import { useTranslations } from "next-intl";
 import { compareOffers, emptyOffer, type Comparison, type OfferInput, type TedoriResult } from "@/lib/tedori/calc";
 import { mapExtraction, type FilledField } from "@/lib/tedori/from-extraction";

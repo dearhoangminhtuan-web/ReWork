@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "description": "Real take-home pay, 24/7 help in your language, and jobs near you — for foreign workers in regional Japan."
+  },
+  "common": {
+    "sample": "Sample",
+    "estimate": "Estimate",
+    "back": "Back",
+    "next": "Next",
+    "continue": "Continue",
+    "save": "Save",
+    "saved": "Saved",
+    "cancel": "Cancel",
+    "close": "Close",
+    "edit": "Edit",
+    "delete": "Delete",
+    "send": "Send",
+    "retry": "Try again",
+    "loading": "Loading…",
+    "perMonth": "/ month",
+    "perHour": "/ h",
+    "optional": "optional",
+    "yes": "Yes",
+    "no": "No",
+    "error": "Something went wrong. Please try again.",
+    "notLegal": "General information, not a legal decision.",
+    "privacyLine": "Your employer can't see anything you do here.",
+    "none": "None",
+    "skip": "Skip to content"
+  },
+  "lang": {
+    "vi": "Tiếng Việt",
+    "ja": "日本語",
+    "en": "English",
+    "id": "Bahasa Indonesia",
+    "tl": "Filipino",
+    "ne": "नेपाली",
+    "my": "မြန်မာ"
+  },
+  "industry": {
+    "accommodation": "Accommodation (ryokan, hotel)",
+    "agriculture": "Agriculture",
+    "fishery": "Fishery",
+    "food_manufacturing": "Food manufacturing",
+    "forestry": "Forestry",
+    "nursing_care": "Nursing care",
+    "construction": "Construction",
+    "food_service": "Restaurants",
+    "other": "Other"
+  },
+  "residence": {
+    "ikusei": "Employment for Skill Development (育成就労)",
+    "titp": "Technical Intern Training (技能実習)",
+    "ssw": "Specified Skilled Worker (特定技能)",
+    "other": "Other / not sure"
+  },
+  "years": {
+    "lt1": "Less than 1 year",
+    "y1": "1–2 years",
+    "y2": "2–3 years",
+    "y3": "3 years or more"
+  },
+  "tenure": {
+    "m0": "Under 6 months",
+    "m6": "6–12 months",
+    "m12": "1–2 years",
+    "m24": "2 years or more"
+  },
+  "nav": {
+    "home": "Home",
+    "tedori": "Pay",
+    "assistant": "Ask",
+    "community": "People",
+    "swap": "Move",
+    "settings": "Settings",
+    "main": "Main"
+  },
+  "demo": {
+    "banner": "Demo · sample data only",
+    "viewAs": "View as",
+    "worker": "Worker · Linh",
+    "newWorker": "New worker (onboarding)",
+    "employer": "Employer · Sato",
+    "support_org": "Support org · Tanaka",
+    "municipality": "Prefecture office",
+    "admin": "Admin"
+  },
+  "onboarding": {
+    "welcomeKicker": "Free · in your language",
+    "welcomeTitle": "Stay, or move? See the real numbers first.",
+    "welcomeLead": "Compare what's really left after tax and rent, get answers 24/7, and find people and jobs near you.",
+    "start": "Start — no email needed",
+    "orgLogin": "Employer or organisation? Sign in",
+    "stepOf": "Step {n} of {total}",
+    "languageTitle": "Which language do you prefer?",
+    "prefectureTitle": "Where do you live and work?",
+    "prefectureHint": "The app changes to match your prefecture.",
+    "municipalityTitle": "Which town or city?",
+    "municipalityUnknown": "Not listed / not sure",
+    "industryTitle": "What kind of work do you do?",
+    "statusTitle": "Your residence status",
+    "yearsTitle": "How long have you lived in Japan?",
+    "tenureTitle": "How long at your current workplace?",
+    "consentTitle": "Your data, your choice",
+    "consentLead": "Everything is off unless you turn it on. Your employer can never see your chats, pay comparisons or plans to move.",
+    "privacyLink": "Read the full privacy notice",
+    "finish": "Open ReWork",
+    "starting": "Setting up…",
+    "orgTitle": "Your support organisation",
+    "orgHint": "The 監理支援機関 / 登録支援機関 that supports you. Only used if you choose to send them something.",
+    "orgNone": "I don't know / not listed"
+  },
+  "consents": {
+    "chatImprove": "Use my chats to improve answers",
+    "chatImproveHelp": "Chats are deleted after 30 days either way.",
+    "surveyAggregate": "Count my anonymous survey answers in team stats",
+    "surveyAggregateHelp": "Your employer only sees team averages when 5 or more people answered — never who answered.",
+    "shareSwap": "Share my transfer interest with my support organisation",
+    "shareSwapHelp": "Only when you press “Send”. Never sent to your current employer."
+  },
+  "home": {
+    "hello": "Hi, {name}",
+    "helloAnon": "Hi there",
+    "stampTitle": "Stamp rally",
+    "stampLead": "Use each feature to collect the four {pref} stamps.",
+    "stampCount": "{n} / 4",
+    "tedoriTitle": "What's really left?",
+    "tedoriDesc": "Compare two job offers after tax, insurance, rent and commute.",
+    "assistantTitle": "Ask anything",
+    "assistantDesc": "Garbage day, hospital, tax letters, Japanese — 24/7 in your language.",
+    "communityTitle": "People nearby",
+    "communityDesc": "Compatriot groups, local events and a buddy.",
+    "swapTitle": "A better job, same prefecture",
+    "swapDesc": "Thinking of switching? See options in {pref} first.",
+    "pulseTitle": "Monthly check-in",
+    "pulseDesc": "5 quick anonymous questions. Your workplace sees team averages only.",
+    "pulseCta": "Answer now",
+    "knownFor": "{pref} is known for",
+    "open": "Open"
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": "About you",
+    "language": "Language",
+    "prefecture": "Prefecture",
+    "prefectureNote": "Changing prefecture changes the look and the information you see.",
+    "municipality": "Town / city",
+    "industry": "Work",
+    "status": "Residence status",
+    "years": "Years in Japan",
+    "tenure": "At current workplace",
+    "supportOrg": "Support organisation",
+    "consents": "Privacy choices",
+    "privacyNotice": "Privacy notice",
+    "deleteTitle": "Delete all my data",
+    "deleteBody": "Deletes your profile, chats, offers, comparisons, transfer requests and buddy requests right now. Anonymous survey answers are not linked to you, so they can't be found and stay in team averages.",
+    "deleteConfirm": "Type DELETE to confirm",
+    "deleteCta": "Delete everything now",
+    "deleted": "All your data was deleted.",
+    "signOut": "Sign out"
+  },
+  "login": {
+    "title": "Sign in for organisations",
+    "lead": "Employers, support organisations and prefecture staff sign in with a link sent to their email.",
+    "email": "Work email",
+    "send": "Send sign-in link",
+    "sent": "Check your inbox for the sign-in link.",
+    "notConfigured": "Email sign-in needs a Supabase project. In demo mode, use “View as” at the top of the page.",
+    "worker": "Are you a worker? Start here — no email needed.",
+    "failed": "Couldn't send the link. Is this email registered?"
+  },
+  "privacy": {
+    "title": "Privacy notice",
+    "intro": "ReWork is built so that you stay in control. We collect as little as possible, your employer never sees your personal activity, and you can delete everything with one button.",
+    "draft": "Draft for the MVP pilot, written toward Japan's Act on the Protection of Personal Information (APPI). It will be reviewed by a lawyer before any real pilot.",
+    "purpose": {
+      "h": "Why we collect data",
+      "body": "To personalise information to your prefecture, language and work; to calculate take-home pay estimates; to answer your questions; and — only if you ask — to pass your transfer interest to your support organisation."
+    },
+    "collected": {
+      "h": "What we collect",
+      "body": "• Language, prefecture, town, industry, residence status, years in Japan (from onboarding)\n• Job offers you type in or photograph — photos are read once and not stored\n• Your chat messages with the assistant\n• Anonymous monthly survey answers (stored without your user ID)\n• Transfer-interest requests and buddy requests you send"
+    },
+    "whoSees": {
+      "h": "Who can see it",
+      "body": "Your employer can NEVER see your chats, job offers, comparisons, transfer interest, individual survey answers, or whether you answered a survey. Employers and the prefecture only see group statistics, and only when at least 5 people are in the group. Your support organisation sees a transfer-interest request only after you press “Send”."
+    },
+    "retention": {
+      "h": "How long we keep it",
+      "body": "• Chat messages: 30 days, then deleted automatically\n• Job-offer photos: not stored\n• Survey answers: 24 months, never linked to you\n• Transfer requests: until closed + 6 months\n• Everything else: until you delete it"
+    },
+    "thirdParties": {
+      "h": "Services we use",
+      "body": "Anthropic (AI processing of offers and questions), Supabase (database and sign-in), Vercel (hosting). Data is sent to them only to provide ReWork. We never sell data and never share it with employers or job agencies."
+    },
+    "rights": {
+      "h": "Your choices",
+      "body": "Every consent switch is off until you turn it on, and you can change it any time in Settings. “Delete all my data” in Settings removes everything linked to you immediately."
+    }
+  }
+}

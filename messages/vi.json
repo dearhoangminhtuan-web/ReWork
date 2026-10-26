@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "description": "Lương thực nhận, hỗ trợ 24/7 bằng tiếng Việt, và việc làm gần bạn — cho người lao động nước ngoài ở các tỉnh Nhật Bản."
+  },
+  "common": {
+    "sample": "Mẫu",
+    "estimate": "Ước tính",
+    "back": "Quay lại",
+    "next": "Tiếp",
+    "continue": "Tiếp tục",
+    "save": "Lưu",
+    "saved": "Đã lưu",
+    "cancel": "Huỷ",
+    "close": "Đóng",
+    "edit": "Sửa",
+    "delete": "Xoá",
+    "send": "Gửi",
+    "retry": "Thử lại",
+    "loading": "Đang tải…",
+    "perMonth": "/ tháng",
+    "perHour": "/ giờ",
+    "optional": "không bắt buộc",
+    "yes": "Có",
+    "no": "Không",
+    "error": "Có lỗi xảy ra. Vui lòng thử lại.",
+    "notLegal": "Thông tin chung, không phải quyết định pháp lý.",
+    "privacyLine": "Công ty bạn không thể thấy bất cứ điều gì bạn làm ở đây.",
+    "none": "Không có",
+    "skip": "Đến nội dung chính"
+  },
+  "lang": {
+    "vi": "Tiếng Việt",
+    "ja": "日本語",
+    "en": "English",
+    "id": "Bahasa Indonesia",
+    "tl": "Filipino",
+    "ne": "नेपाली",
+    "my": "မြန်မာ"
+  },
+  "industry": {
+    "accommodation": "Lưu trú (ryokan, khách sạn)",
+    "agriculture": "Nông nghiệp",
+    "fishery": "Ngư nghiệp",
+    "food_manufacturing": "Chế biến thực phẩm",
+    "forestry": "Lâm nghiệp",
+    "nursing_care": "Điều dưỡng",
+    "construction": "Xây dựng",
+    "food_service": "Nhà hàng",
+    "other": "Khác"
+  },
+  "residence": {
+    "ikusei": "Dục thành lao động (育成就労)",
+    "titp": "Thực tập sinh kỹ năng (技能実習)",
+    "ssw": "Kỹ năng đặc định (特定技能)",
+    "other": "Khác / chưa rõ"
+  },
+  "years": {
+    "lt1": "Dưới 1 năm",
+    "y1": "1–2 năm",
+    "y2": "2–3 năm",
+    "y3": "Từ 3 năm trở lên"
+  },
+  "tenure": {
+    "m0": "Dưới 6 tháng",
+    "m6": "6–12 tháng",
+    "m12": "1–2 năm",
+    "m24": "Từ 2 năm trở lên"
+  },
+  "nav": {
+    "home": "Nhà",
+    "tedori": "Lương",
+    "assistant": "Hỏi",
+    "community": "Bạn bè",
+    "swap": "Đổi việc",
+    "settings": "Cài đặt",
+    "main": "Chính"
+  },
+  "demo": {
+    "banner": "Demo · chỉ dữ liệu mẫu",
+    "viewAs": "Xem với vai",
+    "worker": "Người lao động · Linh",
+    "newWorker": "Người mới (đăng ký)",
+    "employer": "Chủ doanh nghiệp · Sato",
+    "support_org": "Tổ chức hỗ trợ · Tanaka",
+    "municipality": "Văn phòng tỉnh",
+    "admin": "Quản trị"
+  },
+  "onboarding": {
+    "welcomeKicker": "Miễn phí · bằng tiếng của bạn",
+    "welcomeTitle": "Ở lại hay đi? Xem con số thật trước đã.",
+    "welcomeLead": "So sánh số tiền thật sự còn lại sau thuế và tiền nhà, hỏi đáp 24/7, tìm bạn bè và việc làm gần bạn.",
+    "start": "Bắt đầu — không cần email",
+    "orgLogin": "Doanh nghiệp hoặc tổ chức? Đăng nhập",
+    "stepOf": "Bước {n} / {total}",
+    "languageTitle": "Bạn muốn dùng ngôn ngữ nào?",
+    "prefectureTitle": "Bạn sống và làm việc ở đâu?",
+    "prefectureHint": "Ứng dụng sẽ đổi giao diện theo tỉnh của bạn.",
+    "municipalityTitle": "Thành phố / thị trấn nào?",
+    "municipalityUnknown": "Không có trong danh sách / không rõ",
+    "industryTitle": "Bạn làm công việc gì?",
+    "statusTitle": "Tư cách lưu trú của bạn",
+    "yearsTitle": "Bạn đã sống ở Nhật bao lâu?",
+    "tenureTitle": "Bạn làm ở chỗ hiện tại bao lâu rồi?",
+    "consentTitle": "Dữ liệu của bạn, bạn quyết định",
+    "consentLead": "Mọi thứ đều TẮT trừ khi bạn bật lên. Công ty không bao giờ thấy tin nhắn, bảng so sánh lương hay ý định đổi việc của bạn.",
+    "privacyLink": "Đọc đầy đủ chính sách quyền riêng tư",
+    "finish": "Mở ReWork",
+    "starting": "Đang chuẩn bị…",
+    "orgTitle": "Tổ chức hỗ trợ của bạn",
+    "orgHint": "Nghiệp đoàn / tổ chức hỗ trợ (監理支援機関 / 登録支援機関) đang hỗ trợ bạn. Chỉ dùng khi bạn chọn gửi gì đó cho họ.",
+    "orgNone": "Không biết / không có trong danh sách"
+  },
+  "consents": {
+    "chatImprove": "Dùng tin nhắn của tôi để cải thiện câu trả lời",
+    "chatImproveHelp": "Dù sao tin nhắn cũng sẽ bị xoá sau 30 ngày.",
+    "surveyAggregate": "Tính câu trả lời khảo sát ẩn danh của tôi vào thống kê nhóm",
+    "surveyAggregateHelp": "Công ty chỉ thấy điểm trung bình của nhóm khi có từ 5 người trả lời — không bao giờ biết ai đã trả lời.",
+    "shareSwap": "Chia sẻ mong muốn chuyển việc với tổ chức hỗ trợ của tôi",
+    "shareSwapHelp": "Chỉ khi bạn bấm “Gửi”. Không bao giờ gửi cho công ty hiện tại."
+  },
+  "home": {
+    "hello": "Chào {name}",
+    "helloAnon": "Xin chào",
+    "stampTitle": "Sưu tầm con dấu",
+    "stampLead": "Dùng từng tính năng để nhận đủ 4 con dấu {pref}.",
+    "stampCount": "{n} / 4",
+    "tedoriTitle": "Thật sự còn lại bao nhiêu?",
+    "tedoriDesc": "So sánh 2 lời mời làm việc sau thuế, bảo hiểm, tiền nhà và đi lại.",
+    "assistantTitle": "Hỏi bất cứ điều gì",
+    "assistantDesc": "Ngày đổ rác, đi khám, giấy báo thuế, tiếng Nhật — 24/7 bằng tiếng Việt.",
+    "communityTitle": "Bạn bè quanh đây",
+    "communityDesc": "Nhóm đồng hương, sự kiện địa phương và bạn đồng hành.",
+    "swapTitle": "Việc tốt hơn, vẫn trong tỉnh",
+    "swapDesc": "Muốn đổi việc? Xem lựa chọn ở {pref} trước đã.",
+    "pulseTitle": "Khảo sát hằng tháng",
+    "pulseDesc": "5 câu hỏi nhanh, ẩn danh. Nơi làm việc chỉ thấy điểm trung bình của nhóm.",
+    "pulseCta": "Trả lời ngay",
+    "knownFor": "{pref} nổi tiếng với",
+    "open": "Mở"
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "profile": "Thông tin của bạn",
+    "language": "Ngôn ngữ",
+    "prefecture": "Tỉnh",
+    "prefectureNote": "Đổi tỉnh sẽ đổi giao diện và thông tin bạn thấy.",
+    "municipality": "Thành phố / thị trấn",
+    "industry": "Công việc",
+    "status": "Tư cách lưu trú",
+    "years": "Số năm ở Nhật",
+    "tenure": "Ở chỗ làm hiện tại",
+    "supportOrg": "Tổ chức hỗ trợ",
+    "consents": "Lựa chọn quyền riêng tư",
+    "privacyNotice": "Chính sách quyền riêng tư",
+    "deleteTitle": "Xoá toàn bộ dữ liệu của tôi",
+    "deleteBody": "Xoá ngay hồ sơ, tin nhắn, lời mời làm việc, bảng so sánh, yêu cầu chuyển việc và yêu cầu bạn đồng hành. Câu trả lời khảo sát ẩn danh không gắn với bạn nên không thể tìm ra, và vẫn nằm trong điểm trung bình của nhóm.",
+    "deleteConfirm": "Gõ DELETE để xác nhận",
+    "deleteCta": "Xoá tất cả ngay",
+    "deleted": "Toàn bộ dữ liệu của bạn đã bị xoá.",
+    "signOut": "Đăng xuất"
+  },
+  "login": {
+    "title": "Đăng nhập cho tổ chức",
+    "lead": "Doanh nghiệp, tổ chức hỗ trợ và cán bộ tỉnh đăng nhập bằng đường link gửi qua email.",
+    "email": "Email công việc",
+    "send": "Gửi link đăng nhập",
+    "sent": "Hãy mở hộp thư để lấy link đăng nhập.",
+    "notConfigured": "Đăng nhập bằng email cần cấu hình Supabase. Ở chế độ demo, hãy dùng “Xem với vai” ở đầu trang.",
+    "worker": "Bạn là người lao động? Bắt đầu ở đây — không cần email.",
+    "failed": "Không gửi được link. Email này đã được đăng ký chưa?"
+  },
+  "privacy": {
+    "title": "Chính sách quyền riêng tư",
+    "intro": "ReWork được làm để bạn luôn tự quyết. Chúng tôi thu thập ít nhất có thể, công ty không bao giờ thấy hoạt động cá nhân của bạn, và bạn có thể xoá tất cả chỉ với một nút bấm.",
+    "draft": "Bản nháp cho giai đoạn thử nghiệm, hướng theo Luật Bảo vệ Thông tin Cá nhân của Nhật (APPI). Sẽ được luật sư xem xét trước khi thử nghiệm thật.",
+    "purpose": {
+      "h": "Vì sao chúng tôi thu thập dữ liệu",
+      "body": "Để hiển thị thông tin phù hợp với tỉnh, ngôn ngữ và công việc của bạn; để ước tính lương thực nhận; để trả lời câu hỏi; và — chỉ khi bạn yêu cầu — để chuyển mong muốn đổi việc của bạn tới tổ chức hỗ trợ."
+    },
+    "collected": {
+      "h": "Chúng tôi thu thập gì",
+      "body": "• Ngôn ngữ, tỉnh, thành phố, ngành nghề, tư cách lưu trú, số năm ở Nhật (lúc đăng ký)\n• Lời mời làm việc bạn nhập hoặc chụp ảnh — ảnh chỉ được đọc một lần và không lưu lại\n• Tin nhắn của bạn với trợ lý\n• Câu trả lời khảo sát hằng tháng ẩn danh (lưu không kèm mã người dùng)\n• Yêu cầu chuyển việc và yêu cầu bạn đồng hành bạn gửi"
+    },
+    "whoSees": {
+      "h": "Ai có thể thấy",
+      "body": "Công ty của bạn KHÔNG BAO GIỜ thấy tin nhắn, lời mời làm việc, bảng so sánh, mong muốn đổi việc, từng câu trả lời khảo sát, hay việc bạn có trả lời khảo sát hay không. Công ty và tỉnh chỉ thấy số liệu của nhóm, và chỉ khi nhóm có từ 5 người. Tổ chức hỗ trợ chỉ thấy yêu cầu chuyển việc sau khi bạn bấm “Gửi”."
+    },
+    "retention": {
+      "h": "Lưu trong bao lâu",
+      "body": "• Tin nhắn: 30 ngày, sau đó tự động xoá\n• Ảnh lời mời làm việc: không lưu\n• Câu trả lời khảo sát: 24 tháng, không bao giờ gắn với bạn\n• Yêu cầu chuyển việc: đến khi đóng + 6 tháng\n• Các dữ liệu khác: đến khi bạn xoá"
+    },
+    "thirdParties": {
+      "h": "Dịch vụ chúng tôi dùng",
+      "body": "Anthropic (AI xử lý lời mời làm việc và câu hỏi), Supabase (cơ sở dữ liệu và đăng nhập), Vercel (máy chủ). Dữ liệu chỉ được gửi tới họ để vận hành ReWork. Chúng tôi không bao giờ bán dữ liệu và không chia sẻ với công ty hay môi giới việc làm."
+    },
+    "rights": {
+      "h": "Lựa chọn của bạn",
+      "body": "Mọi công tắc đồng ý đều TẮT cho đến khi bạn bật, và bạn có thể đổi bất cứ lúc nào trong Cài đặt. Nút “Xoá toàn bộ dữ liệu của tôi” trong Cài đặt sẽ xoá ngay mọi thứ gắn với bạn."
+    }
+  }
+}
